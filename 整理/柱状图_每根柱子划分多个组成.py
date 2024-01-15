@@ -229,6 +229,5 @@ if __name__ == '__main__':
     plt.rcParams['hatch.linewidth'] = 2
     # ax.grid(axis='y', zorder=-1)
     plt.tight_layout()  # 让图片适应画布大小
-    plt.savefig("break_latency.svg")
-    plt.savefig("break_latency.pdf")
+    plt.savefig("../figures/柱状图_每个柱子划分多个组成.png")
     plt.show()

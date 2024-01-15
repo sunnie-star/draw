@@ -191,8 +191,7 @@ plt.text(2.5+0.5, 0.82, '8%',size=fs)
 plt.yticks( size=fs)#设置大小及加粗
 #plt.legend( ncol=3, bbox_to_anchor=(1.05, 1.25),prop=font1)
 plt.tight_layout()
-plt.savefig('break_wo.svg',format='svg')
-plt.savefig('break_wo.pdf')
+plt.savefig('../figures/柱状图_显示到最高柱子的差距',format='png',bbox_inches='tight')
 plt.show()
 
 
